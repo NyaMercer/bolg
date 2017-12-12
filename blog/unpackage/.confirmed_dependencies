@@ -1,0 +1,33 @@
+{
+  "index.html": {
+    "resources": [
+      "img/sece.png",
+      "css/index.css",
+      "img/banner.png",
+      "css/base.css",
+      "img/Arrow.png",
+      "pic.html",
+      "js/rem.js",
+      "img/new2.png",
+      "img/news1.png",
+      "img/new3.png",
+      "img/use.png",
+      "iconfont/iconfont.css"
+    ],
+    "refer": [
+      "pic.html"
+    ]
+  },
+  "pic.html": {
+    "resources": [
+      "img/pic.png",
+      "index.html",
+      "img/miaomiaomiao_02.png",
+      "iconfont/iconfont.woff",
+      "css/pic.css"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  }
+}

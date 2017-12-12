@@ -1,0 +1,283 @@
+﻿
+@import url('base.css');
+
+header{
+	width: 100%;
+	height: 0.51rem;
+	background: white;
+	border-bottom: 0.01rem	solid 	#f5f5f5;
+	display: flex;
+	justify-content: space-between;
+
+}
+.head-left{
+	display: block;
+	width: 0.29rem;
+	height: 0.51rem;
+	/* background: green; */
+
+}
+.head-left img{
+	display: block;
+	width: 0.16rem;
+	height: 0.16rem;
+	/* background: blue; */
+	margin-top: 0.18rem;
+	margin-left: 0.13rem;
+}
+.head-mid{
+	display: block;
+	width: 1.2rem;
+	height: 0.33rem;
+	/* background: yellow; */
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0.18rem;
+}
+.head-right{
+	display: block;
+	width: 0.29rem;
+	height: 0.51rem;
+	
+    
+}
+.head-right img{
+	display: block;
+	width: 0.16rem;
+	height: 0.16rem;
+	/* background: blue; */
+	margin-top: 0.18rem;
+}
+.head-mid a{
+	height: 0.30rem;
+	display: block;
+	color: black;
+	font-size: 0.16rem;
+
+}
+.head-mid p{
+	display: block;
+	color: black;
+	font-size: 0.16rem;
+
+}
+.head-mid .news{
+	color: #f6584f;
+	border-bottom: 0.01rem solid #f6584f;
+}
+nav{
+	overflow: hidden;;
+	position: relative;
+	width: 100%;
+	height: 0.43rem;
+	background: #f5f4fa;
+	
+}
+.beeg{
+	display: block;
+	display: flex;
+	justify-content: space-between;
+	padding-left:0.13rem;
+	padding-right:0.13rem;
+
+
+}
+.beeg li a{
+	display: block;
+	color: black;
+    line-height: 0.43rem;
+}
+.beeg li .sports{
+	display: block;
+	color: #f6584f;
+}
+.Arrow img{
+	display: block;
+	height: 0.43rem;
+	width: 0.44rem;
+	position: absolute;
+	top: 0;
+	right: 0 ;
+}
+.banner-area {
+	height: 1.77rem;
+	widows: 100%;
+}
+.con-list {
+	width: 100%;
+	height: auto;
+}
+.content {
+	padding-left: .12rem;
+}
+.content li {
+	height: 1.04rem;
+	width: 100%;
+}
+.content li a {
+	display: block;
+	height: 100%;
+	height: 100%;
+	border-bottom: .01rem solid #f0f0f0;
+	padding-right: .13rem;
+	padding-top: .12rem;
+	display: flex;
+	justify-content: space-between;
+}
+.con-left {
+	width: 2.28rem;
+	height: 100%;
+}
+.con-left p {
+	color: #9f9f9f;
+	font-size: .12rem;
+	line-height: .22rem;
+}
+.con-left h3 {
+	color: #000;
+	font-size: .16rem;
+	font-weight: 500;
+	line-height: .2rem;
+}
+.con-right {
+	display: block;
+	width: .78rem;
+	height: 100%;
+	line-height: 1.04rem;
+}
+.con-right img {
+	display:block;
+	width: 100%;
+	height: .78rem;
+	padding-top: 0.12rem
+}
+html, body {
+	position: relative;
+	height: 100%;
+}
+body {
+	background: #eee;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color:#000;
+	margin: 0;
+	padding: 0;
+}
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+html {
+	-ms-touch-action: none;
+}
+
+body,ul,li {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+/*body {*/
+	/*font-size: 12px;*/
+	/*font-family: ubuntu, helvetica, arial;*/
+	/*overflow: hidden; !* this is important to prevent the whole page to bounce *!*/
+/*}*/
+
+#header {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	background: #CD235C;
+	padding: 0;
+	color: #eee;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#footer {
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 48px;
+	background: #444;
+	padding: 0;
+	border-top: 1px solid #444;
+}
+
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #ccc;
+	overflow: hidden;
+}
+
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 480px;
+	height: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+#scroller ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#scroller li {
+	display: block;
+	float: left;
+	width: 0.7rem;
+	height: 100%;
+	background-color: #fafafa;
+	font-size: 14px;
+	text-align: center;
+	line-height: 0.43rem;
+}

@@ -1,0 +1,71 @@
+@import url('base.css');
+header{
+	width: 100%;
+	height: 0.51rem;
+	/* background: red; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.13rem;
+	border-bottom: 0.01rem solid #efefef;
+}
+.search-box{
+	width: 2.79rem;
+	height: 0.34rem;
+	background: #f5f4fa;
+	border-radius: 0.04rem;
+	display: flex;
+}
+.cancle{
+	width: 0.31rem;
+	height: 0.14rem;
+	/* background: blue; */
+}
+.search-box .icon-sousuo2{
+	font-size: 0.16rem;
+	color: #bfbfc1;
+	display: block;
+	line-height: 0.34rem;
+	margin-left: 0.1rem;
+}
+.search-box input{
+	width: 2.4rem;
+	height: 100%;
+	margin-left: 0.06rem;
+	border: none;
+	outline: none;
+	background: #f5f4fa;
+}
+.cancle a{
+	font-size: 0.14rem;
+	color: #f26262;
+	display: block;
+}
+.content{
+	width: 100%;
+	height: 100%;
+	padding: 0 0.13rem;
+}
+.content li{
+	width: 100%;
+	height: 0.57rem;
+	background: #fff;
+	padding-top: 0.13rem;
+	display: flex;
+	align-items: center;
+}
+.pic{
+	width: 0.44rem;
+	height: 0.44rem;
+	/* float: left; */
+}
+.pic a,.pic img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.content span{
+	font-size: 0.14rem;
+	margin-left: 0.11rem;
+	color: #373737;
+}
